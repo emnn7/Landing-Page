@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+.top .logo{
+    width: 30%;
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 80px;
+}
+.top .end{
+    display: flex;
+    align-items: center;
+}
+.top .end .menu{
+   padding-right: 80px;
+}
+.top .end .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.end .buttons{
+    margin-right: 140px;
+}
+.buttons button{
+    border: none;
+    padding: 8px 30px;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+
+.text{
+    width: 100%;
+    padding: 60px;
+    
+}
+.main .text{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} 
+.text h3{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.text h1{
+    font-size: 55px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.text p{
+    
+    color: rgb(0, 0, 0);
+} 
+.text button{
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: 3px solid black;
+    box-shadow: 0 0 20px black;
+}
+img{
+    height: 450px;
+    width: 550px;
+}
+
